@@ -1,0 +1,106 @@
+body {
+	background: #fff;
+	margin: 0px;
+	font-family: adobe-garamond-pro, serif;
+	font-style: normal;
+	color: #aaa;
+}
+
+strong {
+    color: #ccc;
+    font-weight: bold;
+}
+
+a {
+	color: #ccc;
+}
+
+#container {
+	border-color: #d7c69f;
+	border-style: solid;
+	border-width: 20px 0px;
+	background: #1d1d1d;
+	padding: 100px 20px;
+	text-align: left;
+}
+
+	@media (min-width: 500px) {
+	  #container {
+		  padding: 150px 0px;
+		  text-align: center;
+	  }
+	}
+
+#main {
+	max-width: 625px;
+	margin: 0px auto;
+	padding: 0px 20px;
+}
+
+.logo {
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 1.5em;
+	line-height: 1.4em;
+	margin: 60px 0px;
+	font-weight: 700;
+	color: #fff;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	font-weight: 400;
+}
+
+	.notified {
+		margin: 60px 0px 0px 0px;
+	}
+
+#notification-sign-up {
+	padding: 60px 0px;
+	margin: 0px auto;
+	display: block;
+	text-align: left;
+}
+
+	@media (min-width: 500px) {
+		#notification-sign-up {
+			text-align: center;
+		}
+	}
+
+#input-email {
+	font-family: adobe-garamond-pro, serif;
+	font-size: 1.2em;
+	font-style: italic;
+	margin: 0px 0px 10px 0px;
+	padding: 10px;
+	width: 275px;
+	background: #fff;
+	color: #000;
+	border: none;
+	border-radius: 5px;
+}
+
+	@media (min-width: 500px) {
+		#input-email {
+			margin: 0px 10px 0px 0px;
+		}
+	}
+
+#button-subscribe {
+	font-family: adobe-garamond-pro, serif;
+	font-size: 1.2em;
+	padding: 10px 30px;
+	background: #d7c69f;
+	color: #000;
+	border: none;
+	border-radius: 5px;
+}
+
+.social {
+	font-style: italic;
+}
